@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0072211E05A2FC005B33FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0072201E05A2FC005B33FC /* main.m */; };
+		1F0072241E05A2FC005B33FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0072231E05A2FC005B33FC /* AppDelegate.m */; };
+		1F0072271E05A2FC005B33FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0072261E05A2FC005B33FC /* ViewController.m */; };
+		1F00722A1E05A2FC005B33FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0072281E05A2FC005B33FC /* Main.storyboard */; };
+		1F00722C1E05A2FC005B33FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F00722B1E05A2FC005B33FC /* Assets.xcassets */; };
+		1F0072391E05A35D005B33FC /* UIPlayStationLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0072381E05A35D005B33FC /* UIPlayStationLoadingView.m */; };
+		1F0072401E060951005B33FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F00723F1E060951005B33FC /* QuartzCore.framework */; };
+		1F0072431E060D1E005B33FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0072411E060D1E005B33FC /* LaunchScreen.storyboard */; };
+		1F0072CC1E069C46005B33FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0072CB1E069C46005B33FC /* main.m */; };
+		1F0072CF1E069C46005B33FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0072CE1E069C46005B33FC /* AppDelegate.m */; };
+		1F0072D21E069C46005B33FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0072D11E069C46005B33FC /* ViewController.m */; };
+		1F0072D51E069C46005B33FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0072D31E069C46005B33FC /* Main.storyboard */; };
+		1F0072D71E069C46005B33FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0072D61E069C46005B33FC /* Assets.xcassets */; };
+		1F0072DC1E069D77005B33FC /* UIPlayStationLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0072381E05A35D005B33FC /* UIPlayStationLoadingView.m */; };
+		1F0072DF1E069E45005B33FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0072DE1E069E45005B33FC /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F00721C1E05A2FC005B33FC /* PlayStation 4 Loading Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlayStation 4 Loading Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0072201E05A2FC005B33FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F0072221E05A2FC005B33FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F0072231E05A2FC005B33FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F0072251E05A2FC005B33FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F0072261E05A2FC005B33FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F0072291E05A2FC005B33FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F00722B1E05A2FC005B33FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F0072301E05A2FC005B33FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0072371E05A35D005B33FC /* UIPlayStationLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIPlayStationLoadingView.h; path = "PlayStation 4 Loading Animation/UIPlayStationLoadingView/UIPlayStationLoadingView.h"; sourceTree = "<group>"; };
+		1F0072381E05A35D005B33FC /* UIPlayStationLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIPlayStationLoadingView.m; path = "PlayStation 4 Loading Animation/UIPlayStationLoadingView/UIPlayStationLoadingView.m"; sourceTree = "<group>"; };
+		1F00723F1E060951005B33FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1F0072421E060D1E005B33FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F0072C81E069C46005B33FC /* PlayStation 4 Loading Animation for tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlayStation 4 Loading Animation for tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0072CB1E069C46005B33FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F0072CD1E069C46005B33FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F0072CE1E069C46005B33FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F0072D01E069C46005B33FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F0072D11E069C46005B33FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F0072D41E069C46005B33FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F0072D61E069C46005B33FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F0072D81E069C46005B33FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0072DE1E069E45005B33FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		1F0072E01E06A287005B33FC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F0072191E05A2FC005B33FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0072401E060951005B33FC /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0072C51E069C46005B33FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0072DF1E069E45005B33FC /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0072131E05A2FC005B33FC = {
+			isa = PBXGroup;
+			children = (
+				1F0072E01E06A287005B33FC /* README.md */,
+				1F0072361E05A323005B33FC /* UIPlayStationLoadingView */,
+				1F00721E1E05A2FC005B33FC /* PlayStation 4 Loading Animation */,
+				1F0072C91E069C46005B33FC /* PlayStation 4 Loading Animation for tvOS */,
+				1F00721D1E05A2FC005B33FC /* Products */,
+				1F00723E1E060951005B33FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F00721D1E05A2FC005B33FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F00721C1E05A2FC005B33FC /* PlayStation 4 Loading Animation.app */,
+				1F0072C81E069C46005B33FC /* PlayStation 4 Loading Animation for tvOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F00721E1E05A2FC005B33FC /* PlayStation 4 Loading Animation */ = {
+			isa = PBXGroup;
+			children = (
+				1F0072221E05A2FC005B33FC /* AppDelegate.h */,
+				1F0072231E05A2FC005B33FC /* AppDelegate.m */,
+				1F0072251E05A2FC005B33FC /* ViewController.h */,
+				1F0072261E05A2FC005B33FC /* ViewController.m */,
+				1F0072281E05A2FC005B33FC /* Main.storyboard */,
+				1F0072411E060D1E005B33FC /* LaunchScreen.storyboard */,
+				1F00722B1E05A2FC005B33FC /* Assets.xcassets */,
+				1F0072301E05A2FC005B33FC /* Info.plist */,
+				1F00721F1E05A2FC005B33FC /* Supporting Files */,
+			);
+			path = "PlayStation 4 Loading Animation";
+			sourceTree = "<group>";
+		};
+		1F00721F1E05A2FC005B33FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F0072201E05A2FC005B33FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F0072361E05A323005B33FC /* UIPlayStationLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				1F0072371E05A35D005B33FC /* UIPlayStationLoadingView.h */,
+				1F0072381E05A35D005B33FC /* UIPlayStationLoadingView.m */,
+			);
+			name = UIPlayStationLoadingView;
+			sourceTree = "<group>";
+		};
+		1F00723E1E060951005B33FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F0072DE1E069E45005B33FC /* QuartzCore.framework */,
+				1F00723F1E060951005B33FC /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F0072C91E069C46005B33FC /* PlayStation 4 Loading Animation for tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				1F0072CD1E069C46005B33FC /* AppDelegate.h */,
+				1F0072CE1E069C46005B33FC /* AppDelegate.m */,
+				1F0072D01E069C46005B33FC /* ViewController.h */,
+				1F0072D11E069C46005B33FC /* ViewController.m */,
+				1F0072D31E069C46005B33FC /* Main.storyboard */,
+				1F0072D61E069C46005B33FC /* Assets.xcassets */,
+				1F0072D81E069C46005B33FC /* Info.plist */,
+				1F0072CA1E069C46005B33FC /* Supporting Files */,
+			);
+			path = "PlayStation 4 Loading Animation for tvOS";
+			sourceTree = "<group>";
+		};
+		1F0072CA1E069C46005B33FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F0072CB1E069C46005B33FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F00721B1E05A2FC005B33FC /* PlayStation 4 Loading Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0072331E05A2FC005B33FC /* Build configuration list for PBXNativeTarget "PlayStation 4 Loading Animation" */;
+			buildPhases = (
+				1F0072181E05A2FC005B33FC /* Sources */,
+				1F0072191E05A2FC005B33FC /* Frameworks */,
+				1F00721A1E05A2FC005B33FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PlayStation 4 Loading Animation";
+			productName = "PlayStation 4 Loading Animation";
+			productReference = 1F00721C1E05A2FC005B33FC /* PlayStation 4 Loading Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F0072C71E069C46005B33FC /* PlayStation 4 Loading Animation for tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0072D91E069C46005B33FC /* Build configuration list for PBXNativeTarget "PlayStation 4 Loading Animation for tvOS" */;
+			buildPhases = (
+				1F0072C41E069C46005B33FC /* Sources */,
+				1F0072C51E069C46005B33FC /* Frameworks */,
+				1F0072C61E069C46005B33FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PlayStation 4 Loading Animation for tvOS";
+			productName = "PlayStation 4 Loading Animation for tvOS";
+			productReference = 1F0072C81E069C46005B33FC /* PlayStation 4 Loading Animation for tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F0072141E05A2FC005B33FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Zhi-Wei Cai";
+				TargetAttributes = {
+					1F00721B1E05A2FC005B33FC = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 928652TY3Y;
+						ProvisioningStyle = Automatic;
+					};
+					1F0072C71E069C46005B33FC = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 928652TY3Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1F0072171E05A2FC005B33FC /* Build configuration list for PBXProject "PlayStation 4 Loading Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F0072131E05A2FC005B33FC;
+			productRefGroup = 1F00721D1E05A2FC005B33FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F00721B1E05A2FC005B33FC /* PlayStation 4 Loading Animation */,
+				1F0072C71E069C46005B33FC /* PlayStation 4 Loading Animation for tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F00721A1E05A2FC005B33FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0072431E060D1E005B33FC /* LaunchScreen.storyboard in Resources */,
+				1F00722C1E05A2FC005B33FC /* Assets.xcassets in Resources */,
+				1F00722A1E05A2FC005B33FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0072C61E069C46005B33FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0072D71E069C46005B33FC /* Assets.xcassets in Resources */,
+				1F0072D51E069C46005B33FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F0072181E05A2FC005B33FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0072211E05A2FC005B33FC /* main.m in Sources */,
+				1F0072241E05A2FC005B33FC /* AppDelegate.m in Sources */,
+				1F0072271E05A2FC005B33FC /* ViewController.m in Sources */,
+				1F0072391E05A35D005B33FC /* UIPlayStationLoadingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0072C41E069C46005B33FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0072CC1E069C46005B33FC /* main.m in Sources */,
+				1F0072CF1E069C46005B33FC /* AppDelegate.m in Sources */,
+				1F0072D21E069C46005B33FC /* ViewController.m in Sources */,
+				1F0072DC1E069D77005B33FC /* UIPlayStationLoadingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F0072281E05A2FC005B33FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0072291E05A2FC005B33FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F0072411E060D1E005B33FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0072421E060D1E005B33FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1F0072D31E069C46005B33FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0072D41E069C46005B33FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F0072311E05A2FC005B33FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F0072321E05A2FC005B33FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F0072341E05A2FC005B33FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 928652TY3Y;
+				INFOPLIST_FILE = "PlayStation 4 Loading Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vg.vox.PlayStation-4-Loading-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F0072351E05A2FC005B33FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 928652TY3Y;
+				INFOPLIST_FILE = "PlayStation 4 Loading Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vg.vox.PlayStation-4-Loading-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F0072DA1E069C46005B33FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 928652TY3Y;
+				INFOPLIST_FILE = "PlayStation 4 Loading Animation for tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vg.vox.PlayStation-4-Loading-Animation-for-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		1F0072DB1E069C46005B33FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 928652TY3Y;
+				INFOPLIST_FILE = "PlayStation 4 Loading Animation for tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vg.vox.PlayStation-4-Loading-Animation-for-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F0072171E05A2FC005B33FC /* Build configuration list for PBXProject "PlayStation 4 Loading Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0072311E05A2FC005B33FC /* Debug */,
+				1F0072321E05A2FC005B33FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0072331E05A2FC005B33FC /* Build configuration list for PBXNativeTarget "PlayStation 4 Loading Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0072341E05A2FC005B33FC /* Debug */,
+				1F0072351E05A2FC005B33FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F0072D91E069C46005B33FC /* Build configuration list for PBXNativeTarget "PlayStation 4 Loading Animation for tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0072DA1E069C46005B33FC /* Debug */,
+				1F0072DB1E069C46005B33FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F0072141E05A2FC005B33FC /* Project object */;
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="appleTV" orientation="landscape">
+        <adaptation id="light"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Shb-ea-Q2a">
+                                <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="RyJ-Fc-WeL">
+                                    <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yqM-Tp-zgr" customClass="UIPlayStationLoadingView">
+                                            <rect key="frame" x="810" y="503" width="300" height="75"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="300" id="V11-8k-gQf"/>
+                                                <constraint firstAttribute="width" secondItem="yqM-Tp-zgr" secondAttribute="height" multiplier="4:1" id="eSM-80-1Nd"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="yqM-Tp-zgr" firstAttribute="centerY" secondItem="RyJ-Fc-WeL" secondAttribute="centerY" id="DyP-9j-G9q"/>
+                                        <constraint firstItem="yqM-Tp-zgr" firstAttribute="centerX" secondItem="RyJ-Fc-WeL" secondAttribute="centerX" id="t4T-nq-J3J"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="extraDark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Shb-ea-Q2a" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8T2-2R-NCL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Shb-ea-Q2a" secondAttribute="bottom" id="MqF-BW-5cj"/>
+                            <constraint firstItem="Shb-ea-Q2a" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Nha-nt-3Yo"/>
+                            <constraint firstAttribute="trailing" secondItem="Shb-ea-Q2a" secondAttribute="trailing" id="f57-47-XKi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loadingView" destination="yqM-Tp-zgr" id="57A-AY-OJb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
