@@ -127,8 +127,8 @@ typedef enum {
                               } completion:^(BOOL finished) {
                                   if (finished) {
                                       [UIView animateKeyframesWithDuration:relativeDuration
-                                                                     delay:delay
-                                                                   options:UIViewKeyframeAnimationOptionCalculationModePaced|UIViewKeyframeAnimationOptionBeginFromCurrentState
+                                                                     delay:duration
+                                                                   options:UIViewKeyframeAnimationOptionCalculationModePaced
                                                                 animations:^{
                                                                     [UIView addKeyframeWithRelativeStartTime:.0f relativeDuration:.0f animations:^{
                                                                         self.transform = CGAffineTransformConcat(CGAffineTransformMakeScale(scaleUnit2X, scaleUnit2X),
@@ -146,9 +146,9 @@ typedef enum {
                                                                 }
                                                                 completion:^(BOOL finished) {
                                                                     if (finished) {
-                                                                        self.shape = UIPlayStationShapeTriangle + arc4random_uniform(3);
+                                                                        self.shape = ++self.shape % 4;
                                                                         [self setNeedsDisplay];
-                                                                        [self rotateViewWithDuration:duration delay:duration];
+                                                                        [self rotateViewWithDuration:duration delay:delay];
                                                                     }
                                                                 }];
                                   }
@@ -187,14 +187,14 @@ typedef enum {
         UIPlayStationShapeView *shape = [[UIPlayStationShapeView alloc]
                                          initWithFrame:CGRectMake(i * width, 0,
                                                                   width, width)];
-        shape.shape = UIPlayStationShapeTriangle + i;
+        shape.shape = i;
         if (_color) {
             shape.color = _color;
         }
         shape.backgroundColor = [UIColor clearColor];
         [self addSubview:shape];
         if (duration) {
-            [shape rotateViewWithDuration:duration delay:delay * i + duration * .1f];
+            [shape rotateViewWithDuration:duration delay:delay * i];
                     
         }
     }
